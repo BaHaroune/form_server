@@ -9,9 +9,6 @@ app.use(cors());
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-alert("en amrche");
-
-
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
